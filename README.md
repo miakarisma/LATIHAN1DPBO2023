@@ -10,7 +10,7 @@ Program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, dan PHP y
 
   Terdapat juga kelas Tabel yang digunakan untuk menampilkan tabel dari list objek mahasiswa, pada kelas tabel setiap atribut memiliki hak akses private yaitu atribut **baris dan kolom**. Adapun method yang digunakan yaitu **method setter dan getter** serta **method untuk pembuatan baris** dari tabel itu sendiri. 
 
-Untuk fitur menambah, mengubah, menghapus dilakukan pada fungsi utama (C++, Python, dan PHP) atau pada kelas utama (Java) dimana disediakan menu yang berisi fitur-fitur yang dapat dipilih oleh pengguna.  
+Untuk **fitur menambah, mengubah, menghapus** dilakukan **pada fungsi utama (C++, Python, dan PHP)** **atau** pada **kelas utama (Java)** dimana disediakan menu yang berisi fitur-fitur yang dapat dipilih oleh pengguna.  
 
 ## Demonstrasi Program
 
