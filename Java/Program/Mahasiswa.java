@@ -5,6 +5,7 @@
 
 // Kelas Mahasiswa yang digunakan untuk merepresentasikan data Mahasiswa
 public class Mahasiswa {
+    // Atribut yang digunakan pada kelas mahasiswa
     private String nim;
     private String nama;
     private String prodi;
