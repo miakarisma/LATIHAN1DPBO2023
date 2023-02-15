@@ -7,12 +7,14 @@
 <?php
     class Mahasiswa
     {
+        // Atribut yang digunakan pada kelas Mahasiswa         
         private $nim = '';
         private $nama = '';
         private $prodi = '';
         private $fakultas = '';
         private $foto = '';
-
+        
+        // Constructor
         public function __construct($nim = '', $nama = '', $prodi = '', $fakultas = '', $foto = '')
         {
             $this->nim = $nim;
@@ -21,7 +23,8 @@
             $this->fakultas = $fakultas;
             $this->foto = $foto;
         }
-
+        
+        // Method set untuk set setiap atribut pada kelas mahasiswa
         public function setNim($nim)
         {
             $this->nim = $nim;
@@ -46,7 +49,8 @@
         {
             $this->foto = $foto;
         }
-
+        
+        // Method get untuk get setiap atribut pada kelas mahasiswa
         public function getNim()
         {
             return $this->nim;
@@ -71,7 +75,8 @@
         {
             return $this->foto;
         }
-
+        
+        // Destructor
         function __destruct()
         {
             
